@@ -1,0 +1,254 @@
+a {
+    text-decoration: none; 
+}
+
+body { 
+    padding: 0px; 
+    margin: 0px; 
+}
+
+
+.Octopus-logo {
+    height: 65px;
+    width:160px; 
+    background-color: #66DBFF;
+    position: absolute;
+    border-color: #66DBFF; 
+    border-width: 0px;
+    border-style: solid;
+    border-right: none; 
+    min-width: 150px;
+    min-height: 65px;
+
+}
+
+h1 {
+    color:white; 
+    font-weight: 100;
+    size: 25px; 
+    padding-right: 5px;
+    font-family: helvetica;
+    text-align: center; 
+    position: relative;
+    bottom: 8px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0;
+    text-shadow: 1px, black;
+    
+
+}
+
+.Top-banner {
+    height: 65px;
+    width: 89.65%; 
+    background-color: #66DBFF;
+    position: absolute; 
+    left: 150px;
+    border-color: turquoise; 
+    border-width: 0px;
+    border-style: solid;
+    min-width: 89;
+    min-height: 65px;
+
+
+}
+
+.nav {
+    background-color: #66DBFF;
+    opacity: 0.84;
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 25px;
+    position: relative;
+    top: -4px;
+    font-family: Helvetica;
+    min-width: 1001px
+    
+
+}
+
+.nav > li {
+    display:inline-block;
+    padding-right: 80px;
+    padding-top: 10px; 
+
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color:white;
+    font-weight: 200;
+}
+
+.nav > li > a:hover {
+    color:#ff9666;
+}
+
+#map {
+    width: 955px; 
+    position: fixed;
+    height: 685px;
+    padding-bottom:0;
+    padding-top:0;
+    top: 65px;
+    min-height: 685px; 
+    border-bottom-color: white; 
+    border-bottom-style: solid; 
+    border-bottom-width: 1px; 
+    border-top-width: 1px; 
+    border-top-color: white; 
+    border-top-style: solid; 
+    border-right-color: white; 
+    border-right-style: solid; 
+    border-right-width: 1px; 
+
+}
+
+
+.nav1 {
+
+    background-color: #66DBFF;
+    opacity: 1;
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 0px;
+    position: relative;
+    top: 10px;
+    font-family: Helvetica;
+    height: 110px; 
+    top: 49px; 
+    width: 1401px; 
+    
+
+}
+
+.nav1 > li {
+    display:inline-block;
+    padding-right: 70px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+.nav1 > li > a {
+    text-decoration: none;
+    color:white;
+    font-weight: 200;
+    
+}
+
+.nav1 > li > a:hover {
+    color: #ff9666; 
+
+}
+
+
+.search-bar-list-view {
+    background-color: #ff9666; 
+    height: 685px; 
+    width: 486px; 
+    left: 955px;
+    top: 65px; 
+    position: absolute; 
+    min-height: 687px; 
+    min-width: 470px; 
+}
+
+.search-bar-list-view form { 
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 200px;
+    
+}
+
+.search-bar-list-view input[type="text"] {
+    width: 320px;
+    height: 10px;
+    padding: 15px;
+    border: none; 
+    font-size: 15px; 
+    font-family: helvetica;
+    border-radius: 5px, 0, 0, 5px;
+    background-color: white;
+    top:20px;
+    right: 113px;
+    min-width: 100px;
+    min-height: 15px;
+    box-sizing: border-box; 
+    position: absolute; 
+    font-weight: 100;
+    -webkit-box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.46);
+    box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.46);
+    
+
+
+}
+.search-bar-list-view input[type="submit"] {
+    
+    background-color: #66DBFF; 
+    right:53px; 
+    height: 30px; 
+    border: none; 
+    font-size: 15px; 
+    color: white; 
+    border-radius: 0, 5px, 5px, 0; 
+    top: 20px; 
+    box-sizing: border-box; 
+    position: absolute; 
+    text-align: center;
+    font-weight: 100; 
+    font-family: helvetica;
+    -webkit-box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.46);
+    box-shadow: 5px 7px 13px 0px rgba(0,0,0,0.46);
+    
+}
+
+
+
+.nav2 { 
+    background-color: #ff9666;
+    opacity: 0.84;
+    color: black;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 20px;
+    top: 90px;
+    font-family: Helvetica;
+    min-width: 100px;
+    width: 446px;
+    height: 40px;
+    position: absolute;  
+    right: 0px; 
+    border-bottom-color: white; 
+    border-bottom-style: solid; 
+    border-bottom-width: 1px; 
+    
+    
+
+
+}
+
+.nav2 > li {
+    display:inline-block;
+    padding-right: 75px;
+    padding-top: 10px; 
+
+}
+
+.nav2 > li > a {
+    text-decoration: none;
+    color:white;
+    font-weight: 200;
+}
+
+.nav2 > li > a:hover {
+    color: #66DBFF; 
+
+}
+
+
+
+

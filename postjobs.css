@@ -1,0 +1,89 @@
+a {
+    text-decoration: none;
+}
+
+body { 
+    padding: 0px; 
+    margin: 0px; 
+}
+
+
+
+.Octopus-logo {
+    height: 65px;
+    width: 11%; 
+    background-color: #66DBFF;
+    position: absolute;
+
+}
+
+h1 {
+    color: white; 
+    font-weight: 100;
+    padding-right: 5px;
+    font-family: helvetica;
+    text-align: center; 
+    position: relative;
+    bottom: 8px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0px;
+
+}
+
+.Top-banner {
+    height: 65px;
+    width: 90%; 
+    background-color: #66DBFF;
+    position: absolute; 
+    left: 150px;
+
+}
+
+.nav {
+    background-color: #66DBFF;
+    opacity: 0.84;
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding-bottom: 25px;
+    position: relative;
+    top: -4px;
+    font-family: Helvetica;
+
+
+}
+
+.nav > li {
+    display:inline-block;
+    padding-right: 80px;
+    padding-top: 10px;
+
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color:black;
+    font-weight: 200;
+}
+
+.nav > li > a:hover {
+    color:white;
+}
+
+.Profile-box-on-navbar {
+    position: absolute; 
+    width: 10%;
+    height: 65px;
+    background-color: #66DBFF; 
+    left: 150px;
+
+}
+
+h2 {
+    color:white; 
+    font-weight: 100; 
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: left; 
+    padding-top: 5px;
+}

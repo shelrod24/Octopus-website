@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Homepage.css" media="screen">
+</head>
+
+<body>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<header>
+
+<div class="Top-banner">
+ <ul class="nav">
+    <li><a href="PostJobs.html"> Post Jobs</a></li>
+    <li><a href="profile.html"> Profile </a></li>
+    <li><a href="Jobhistory.html"> Job History </a></li>
+    <li><a href="Planner.html"> Planner </a></li>
+    <li><a href="settings.html"> Settings </a></li>
+    <li><a href="#"> Help</a></li>
+    <li><a href="Loginpage.html"> Log out </a></li>
+ </ul>
+</div>
+
+<div class="Octopus-logo"><h1> Octopus </h1><a href="Restart.html"</a></a></div>
+
+</header>
+
+<div class="search-bar-list-view">
+
+<form>
+
+    <input type="text" name="search" placeholder="Search for jobs..."> 
+    <input type="submit" name="submit" value="Search">
+    <button type="button" class="btn btn-success">Success</button>
+            
+</form>
+
+
+<ul class="nav2">
+    <li><a href="#"> Price</a></li>
+    <li><a href="#"> Location </a></li>
+    <li><a href="#"> Date </a></li>
+ </ul>
+
+</div>
+
+<div id="map">
+        <script>
+                var map;
+                  function initMap() {
+                    map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat:-36.891935, lng:174.766731},
+                        zoom: 12
+                      });
+                    }
+                  </script>
+             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDiEVKAxOJ7BIS85CQnkgQHbMm573a69eQ&callback=initMap"
+              async defer></script>
+
+</div>
+
+
+
+<div class= "bottom-menu" >
+<ul class="nav1">
+        <li><a href="#"> Help </a></li>
+        <li><a href="#"> Legal</a></li>
+        <li><a href="#"> version 1.0 </a></li>
+</ul>
+</div>
+    
+</body>
+</html>
